@@ -1,3 +1,5 @@
+
+
 # LEETCODE #231     2的幂
 
 ## 题目描述
@@ -10,7 +12,7 @@
 链接：https://leetcode-cn.com/problems/power-of-two
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
-## 解法1：迭代
+## 解法1：递归
 
 **一句话解题**：循环除以2，能除到最后结果为1的
 
@@ -39,9 +41,9 @@ class Solution:
 
 
 
-![python迭代中的return语句1](迭代函数的return语句(python).assets/python迭代中的return语句1.jpg)
+![python迭代中的return语句1](递归函数的return语句(python).assets/python迭代中的return语句1.jpg)
 
-## 解法2：用while 代替迭代
+## 解法2：用while 代替递归
 
 **一句话解题**: 乘法代替除法
 
@@ -72,7 +74,7 @@ class Solution:
 
    - 并且 n一定大于0
 
-     ![截屏2021-11-23 上午10.57.39](迭代函数的return语句(python).assets/截屏2021-11-23 上午10.57.39.png)
+     ![截屏2021-11-23 上午10.57.39](递归函数的return语句(python).assets/截屏2021-11-23 上午10.57.39.png)
 
    复杂度分析：时间复杂度O(1)空间复杂度O(1)
 
@@ -95,3 +97,4 @@ class Solution:
    ```
 
    
+
