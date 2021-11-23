@@ -39,9 +39,7 @@ class Solution:
 
 函数中如果没有return语句，Python默认返回一个none对象。
 
-
-
-![python迭代中的return语句1](递归函数的return语句(python).assets/python迭代中的return语句1.jpg)
+![递归中的return语句(python)](递归中的return语句(python)/递归中的return语句(python).jpg)
 
 ## 解法2：用while 代替递归
 
@@ -74,7 +72,7 @@ class Solution:
 
    - 并且 n一定大于0
 
-     ![截屏2021-11-23 上午10.57.39](递归函数的return语句(python).assets/截屏2021-11-23 上午10.57.39.png)
+     ![截屏2021-11-23 上午10.57.39](递归中的return语句(python)/截屏2021-11-23 上午10.57.39.png)
 
    复杂度分析：时间复杂度O(1)空间复杂度O(1)
 
@@ -97,4 +95,3 @@ class Solution:
    ```
 
    
-
