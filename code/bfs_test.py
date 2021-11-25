@@ -24,12 +24,13 @@ def bfs_seach(name):
     searched =[]
     while search_queue:
         person = search_queue.popleft()
-        if person_is_seller(person):
-            print(person + ' is a mango seller!')
-            return True
-        else:
-            search_queue += graph[person]
-            searched.append(person)
+        if person not in searched:
+            if person_is_seller(person):
+                print(person + ' is a mango seller!')
+                return True
+            else:
+                search_queue += graph[person]
+                searched.append(person)
     return False
 
 bfs_seach('You')
